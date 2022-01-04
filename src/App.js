@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { API } from './config'
 
 function App() {
+  console.log('这是API',API)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      这是 react 电商实战项目
     </div>
-  );
+  )
 }
 
 export default App;
